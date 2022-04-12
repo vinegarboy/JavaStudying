@@ -10,7 +10,7 @@ public class ArrayTest {
             System.out.println(i+":"+array[i]);
         }
         for (int i =0;i<array.length;i++) {
-            System.out.println("Returned"+i+":"+array[i]);
+            System.out.println("Returned" + i + ":" + array[i]);
         }
     }
 }
