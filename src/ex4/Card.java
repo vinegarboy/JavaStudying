@@ -65,7 +65,7 @@ public class Card {
     }
 
     public boolean isEqualMark(Card aCard){
-        return aCard == this;
+        return aCard.mark == this.mark;
     }
 
     public boolean isLargerThan(Card aCard){
@@ -86,6 +86,10 @@ public class Card {
         System.out.println(card1);
         System.out.println(card2);
         System.out.println(card3);
+        System.out.println(card1.isEqualMark(card2));
+        System.out.println(card1.isEqualMark(card3));
+        System.out.println(card1.isLargerThan(card2));
+        System.out.println(card1.isLargerThan(card3));
     }
 
 
