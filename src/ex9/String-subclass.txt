@@ -1,0 +1,5 @@
+出力結果
+java: final java.lang.Stringからは継承できません
+
+原因
+Stringの宣言にはfinalの接続詞がついておりfinalがついたクラスは継承することが不可能だからだ。
