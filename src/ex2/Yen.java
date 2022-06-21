@@ -13,7 +13,7 @@ public class Yen {
     }
     public void draw(Graphics g)
     {
-        g.setColor(Color.black);
-        g.drawChars(new char[]{'‰~'},0,1,x,y);
+        //g.setColor(Color.black);
+        //g.drawChars(new char[]{'‰~'},0,1,x,y);
     }
 }
