@@ -40,6 +40,6 @@ public class Student {
         this.tel = tel;
     }
     public String toString(){
-        return "a Student(ŠwĞ”Ô†"+this.studentNumber+", –¼"+this.name+", ZŠ"+this.address+", “d˜b”Ô†"+this.tel+")";
+        return "a Student("+this.studentNumber+", "+this.name+", "+this.address+", "+this.tel+")";
     }
 }
